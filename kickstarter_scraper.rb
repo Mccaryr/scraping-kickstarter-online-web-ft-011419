@@ -4,9 +4,13 @@ kickstarter = Nokogiri::HTML(html)
 require 'pry'
 
 
+def get_page
+    Nokogiri::HTML(open('fixtures/kickstarter.html'))
+  end
+
 
 def create_project_hash
-  # write your code here
+  
 end
 binding.pry
 create_project_hash
