@@ -1,7 +1,7 @@
 # require libraries/modules here
 html = File.read('fixtures/kickstarter.html')
 kickstarter = Nokogiri::HTML(html)
-require 'pry'
+# require 'pry'
 
 
 def get_page
@@ -12,5 +12,5 @@ def get_page
 def create_project_hash
 
 end
-binding.pry
+# binding.pry
 create_project_hash
