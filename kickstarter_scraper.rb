@@ -8,5 +8,5 @@ require 'pry'
 def create_project_hash
   # write your code here
 end
-binding.pry 
+binding.pry
 create_project_hash
