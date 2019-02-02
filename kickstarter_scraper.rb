@@ -10,7 +10,7 @@ def get_page
 
 
 def create_project_hash
-  
+
 end
 binding.pry
 create_project_hash
